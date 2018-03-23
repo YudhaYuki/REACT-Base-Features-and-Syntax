@@ -23,6 +23,10 @@ class App extends Component {
     console.log('[App.js] Inside componentWillMount');
   }
 
+  componentDidMount() {
+    console.log('[App.js] Inside componentDidMount');
+  }
+
   // state = {
   //   persons : [
   //     {id:'p001', name: 'Max', age: 28},
@@ -64,6 +68,8 @@ class App extends Component {
   }
 
   render() {
+
+    console.log('[App.js] inside render()');
 
     let persons = null;
 
